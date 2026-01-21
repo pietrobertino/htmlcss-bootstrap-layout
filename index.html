@@ -1,11 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
+
 <body>
-    
+
+    <header>
+
+        <div class="container-lg">
+
+            <div class="text-center py-3">
+
+                <h1>Bootstrap 5 Responsive grid</h1>
+                <div>Layout di griglia con diversi breakpoint (sm, md, lg)</div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="text-white">
+
+        <div class="container-md">
+
+            <!-- prima riga -->
+            <div class="row mx-3 mt-3 gx-3">
+
+                <div class="col-12 col-md-6 col-lg-4 p-2 text-black">
+
+                    <h2>Colonna 1</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto expedita quae iure repudiandae
+                        fugit voluptates veritatis eius in, praesentium dolor ipsam architecto, illum nemo dolore
+                        placeat? Nesciunt eveniet sed fugit?</p>
+
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-8 p-2 bg-secondary">
+
+                    <h2>Colonna 2</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto expedita quae iure repudiandae
+                        fugit voluptates veritatis eius in, praesentium dolor ipsam architecto, illum nemo dolore
+                        placeat? Nesciunt eveniet sed fugit?</p>
+
+                </div>
+            </div>
+
+            <!-- seconda riga  -->
+            <div class="row mx-3 mt-3 gx-3">
+                <!-- Come fare ad usare classe row-cols invece che col ? -->
+
+                <div class="col-6 col-md-4 p-2 bg-primary">
+
+                    <h2>Colonna 1</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto expedita quae iure repudiandae
+                        fugit voluptates veritatis eius in, praesentium dolor ipsam architecto, illum nemo dolore
+                        placeat? Nesciunt eveniet sed fugit?</p>
+
+                </div>
+
+                <div class="col-6 col-md-4 p-2 bg-success">
+
+                    <h2>Colonna 2</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto expedita quae iure repudiandae
+                        fugit voluptates veritatis eius in, praesentium dolor ipsam architecto, illum nemo dolore
+                        placeat? Nesciunt eveniet sed fugit?</p>
+
+                </div>
+
+                <div class="col-12 col-md-4 p-2 bg-danger">
+
+                    <h2>Colonna 3</h2>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto expedita quae iure repudiandae
+                        fugit voluptates veritatis eius in, praesentium dolor ipsam architecto, illum nemo dolore
+                        placeat? Nesciunt eveniet sed fugit?</p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
